@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<div
+    <title>WELCOME TO MY WEBPAGE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>ENHANCED HTML ELEMENTS</h1>
+
+    <h2>Defined list</h2>
+    <dl>
+        <dt>UAE</dt>
+        <dd>United Arab Emirates</dd>
+        <dt>USA</dt>
+        <dd>United States of America</dd>
+    </dl>
+
+    <h3>Nested lists</h3>
+    <ul>
+  <li>Fruits
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+    </ul>
+  </li>
+  <li>Vegetables
+    <ul>
+      <li>Carrot</li>
+      <li>Spinach</li>
+    </ul>
+  </li>
+</ul>
+    
+    <h2>Multimedia</h2>
+
+    <h4>Images</h4>
+    <img src="https://images.pexels.com/photos/20885587/pexels-photo-20885587.jpeg" 
+         alt="Beautiful girl" width="500" height="300">
+
+    <h4>Audio controls</h4>
+    <audio controls>
+        <source src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h4>Video controls</h4>
+    <video controls width="500" height="300">
+        <source src="video.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h4>User Table</h4>
+<table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FABIAN</td>
+                <td>MALE</td>
+                <td>KENYA</td>
+            </tr>
+            <tr>
+                <td>ANNETTE WACUKA</td>
+                <td>Female</td>
+                <td>UAE</td>
+            </tr>
+        </tbody>
+</table>
+    <h5>FORMS</h5>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea><br><br>
+    <button type="submit">Submit</button>
+     <select name="country">
+        <option value="US">United States</option>
+        <option value="UK">United Kingdom</option>
+    </select>
+    </form>
+</body>
+</div>
+</html>
